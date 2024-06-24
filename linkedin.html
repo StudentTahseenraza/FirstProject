@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Automation</title>
+    <link rel="stylesheet" href="linkedin.css">
+</head>
+<body>
+    <div class="container">
+        <h1>LinkedIn Automation Tool</h1>
+        <form id="linkedin-form">
+            <label for="profileUrls">Enter LinkedIn Profile URLs (comma separated):</label>
+            <textarea id="profileUrls" rows="5" placeholder="https://www.linkedin.com/in/user1, https://www.linkedin.com/in/user2"></textarea>
+            
+            <label for="customMessage">Custom Message:</label>
+            <textarea id="customMessage" rows="3" placeholder="Hi, I'd like to connect with you on LinkedIn."></textarea>
+            
+            <label for="scheduleTime">Schedule Time (optional):</label>
+            <input type="datetime-local" id="scheduleTime">
+            
+            <button type="button" id="startAutomation">Start Automation</button>
+        </form>
+        <div id="status"></div>
+        <div id="progress">
+            <div id="progress-bar"></div>
+        </div>
+    </div>
+    <script src="linkedin.js"></script>
+</body>
+</html>
