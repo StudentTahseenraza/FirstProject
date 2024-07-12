@@ -1,4 +1,4 @@
-# FirstProject 
+# Linkedin-Automation
 LinkedIn Automation Tool Project Summary
 Objective
 The project aims to create a LinkedIn Automation Tool that allows users to send connection requests to multiple LinkedIn profiles automatically. It includes features such as error handling, progress tracking, scheduling, and message customization.
